@@ -25,12 +25,13 @@ let wallet = {
 
 function countMoney(walletObj) {
   arr = []
-  arr.push(walletObj.amtCash.oneDollar * 1)
-  arr.push(walletObj.amtCash.fiveDollar * 5)
-  arr.push(walletObj.amtCash.tenDollar * 10)
-  arr.push(walletObj.amtCash.twentyDollar * 20)
-  arr.push(walletObj.amtCash.fiftyDollar * 50)
-  arr.push(walletObj.amtCash.hundredDollar * 100)
+  dollarCash = walletObj.amtCash
+  arr.push(dollarCash.oneDollar * 1)
+  arr.push(dollarCash.fiveDollar * 5)
+  arr.push(dollarCash.tenDollar * 10)
+  arr.push(dollarCash.twentyDollar * 20)
+  arr.push(dollarCash.fiftyDollar * 50)
+  arr.push(dollarCash.hundredDollar * 100)
   console.log(arr)
   return console.log(arr.reduce((acc, curVal) => acc + curVal))
 }
