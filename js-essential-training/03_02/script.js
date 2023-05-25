@@ -1,4 +1,4 @@
-const backpack = {
+let backpack = {
   name: 'Everyday Backpack',
   volume: 30,
   color: 'grey',
@@ -16,3 +16,18 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+console.log(backpack.lidOpen)
+
+
+function openBackpack () {
+  if (backpack.lidOpen === true) {
+    console.log('The backpack was already open')
+  };
+  if (backpack.lidOpen === false) {
+    backpack.toggleLid(true)
+    console.log(`The backpack is now open, see? LidOpen = ${backpack.lidOpen}`)
+  };
+};
+
+openBackpack()
