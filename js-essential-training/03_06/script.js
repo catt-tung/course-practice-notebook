@@ -19,3 +19,13 @@ const backpack = {
 
 console.log('The backpack object:', backpack)
 console.log('The pocket number:', backpack.pocketNum)
+console.log('Strap length left:', backpack.strapLength.left)
+
+let query = 'pocketNum';
+console.log('The pocket number query:', backpack[query])
+
+console.log('Left before: ', backpack.strapLength.left)
+
+backpack.newStrapLength(10, 15)
+
+console.log('Left after: ', backpack.strapLength.left)
