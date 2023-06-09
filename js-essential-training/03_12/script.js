@@ -26,3 +26,5 @@ const smallGlass = new WaterGlass (
   'Water',
   true
 )
+
+console.log(paperlessBackpack, cocktailGlass, smallGlass)
