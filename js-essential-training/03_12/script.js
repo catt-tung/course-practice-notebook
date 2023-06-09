@@ -18,3 +18,11 @@ const cocktailGlass = new WaterGlass (
   'Cocktails',
   false
 )
+
+const smallGlass = new WaterGlass (
+  'Water Glass',
+  150,
+  4,
+  'Water',
+  true
+)
