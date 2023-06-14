@@ -10,3 +10,7 @@ const everydayPack = new Backpack(
   false,
   'December 5, 2020 15:00:00 EST'
 )
+
+let rightNow = new Date()
+
+console.log(rightNow.toDateString)
