@@ -14,3 +14,5 @@ const everydayPack = new Backpack(
 let rightNow = new Date()
 
 console.log(rightNow.toDateString)
+console.log(everydayPack)
+console.log("Date acquired:", everydayPack.dateAcquired)
