@@ -8,7 +8,8 @@ const fluentPythonBook = new Book(
   "Non-fiction",
   983,
   0,
-  983
+  983,
+  "unread"
 );
 
 console.log("Fluent Python Book:", fluentPythonBook);

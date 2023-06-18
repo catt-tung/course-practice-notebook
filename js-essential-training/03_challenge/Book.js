@@ -7,7 +7,8 @@ class Book {
     genre,
     numPages,
     pagesRead,
-    pagesLeft
+    pagesLeft,
+    readStatus
   ) {
     this.title = title;
     this.author = author;
@@ -17,9 +18,16 @@ class Book {
     this.numPages = numPages;
     this.pagesRead = pagesRead;
     this.pagesLeft = pagesLeft;
+    this.readStatus = readStatus;
   }
   countPagesLeft(leftToRead) {
     this.pagesLeft = leftToRead;
+  }
+  updateCurrentPage(newPagesRead) {
+    this.pagesRead = newPagesRead;
+  }
+  updateReadStatus(newReadStatus) {
+    this.readStatus = newReadStatus;
   }
 }
 
