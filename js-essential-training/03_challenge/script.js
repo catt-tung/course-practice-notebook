@@ -12,4 +12,17 @@ const fluentPythonBook = new Book(
   "unread"
 );
 
+const queenBook = new Book(
+  "Queen of our Times",
+  "Robert Hardman",
+  2022,
+  "UK",
+  "Non-fiction",
+  694,
+  15,
+  689,
+  "reading"
+)
+
 console.log("Fluent Python Book:", fluentPythonBook);
+console.log("Queen book:", queenBook);
