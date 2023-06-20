@@ -24,5 +24,18 @@ const queenBook = new Book(
   "reading"
 )
 
+const forgivenessBook = new Book(
+  "The Book of Forgiving",
+  "Desmond and Mpho Tutu",
+  2014,
+  "USA",
+  "Self-Help",
+  229,
+  67,
+  162,
+  "reading"
+)
+
 console.log("Fluent Python Book:", fluentPythonBook);
 console.log("Queen book:", queenBook);
+console.log("Forgiving Book:", forgivenessBook);
